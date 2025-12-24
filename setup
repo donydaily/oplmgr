@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+if command -v pacman >/dev/null; then
+  sudo pacman -S --needed pv p7zip curl
+elif command -v apt >/dev/null; then
+  sudo apt update
+  sudo apt install -y pv p7zip-full curl
+elif command -v dnf >/dev/null; then
+  sudo dnf install -y pv p7zip curl
+else
+  echo "Unsupported distro"
+  exit 1
+fi
