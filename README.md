@@ -224,24 +224,6 @@ ART_BASE_URL="https://server-kamu/ps2-art"
 
 ---
 
-## 🧪 Tested On
-
-* Arch Linux (Hyprland)
-* Linux Mint
-* Ubuntu
-
----
-
-## 🛣️ Roadmap
-
-* [ ] FZF Interactive Menu (TUI)
-* [ ] LAN / SMB OPL support
-* [ ] PKGBUILD AUR
-* [ ] Multiple ART type (ICON / BG / DISC)
-* [ ] Config file (`oplmgr.conf`)
-
----
-
 ## 📜 Lisensi
 
 MIT License
